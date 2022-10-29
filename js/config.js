@@ -17,14 +17,6 @@ export default {
         // 分支名
         sha: "master"
     },
-    gitee: {
-        // 账号
-        owner: "n0ts",
-        // 仓库名称
-        repo: "note",
-        // 分支名
-        sha: "master"
-    },
     // 后端地址
     serverBase: "https://api.n0ts.cn/api/gitee",
     // 主题配置
