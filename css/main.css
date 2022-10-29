@@ -46,7 +46,7 @@ img {
 }
 
 code {
-    white-space: pre-wrap;
+    white-space: pre;
 }
 
 .language-js span,
@@ -409,12 +409,26 @@ pre {
     position: relative;
 }
 
+pre::before {
+    content: '';
+    position: absolute;
+    top: 9px;
+    left: 15px;
+    width: 12px;
+    border-radius: 50%;
+    height: 12px;
+    box-shadow: 20px 0 #fdbc40, 40px 0 #35cd4b;
+    background: #fc625d;
+    z-index: 1;
+}
+
 pre code ul {
     list-style: decimal;
 }
 
 pre code ul li {
     padding-left: 10px;
+    border-left: 1px solid #ccc;
 }
 
 /* 图片查看背景模糊 */
