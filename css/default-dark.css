@@ -30,6 +30,7 @@
 /* 滚动条 */
 ::-webkit-scrollbar {
     width: 8px;
+    height: 6px;
     padding-right: 10px;
     background-color: rgba(0, 0, 0, 0);
 }
@@ -294,6 +295,7 @@
 .content ul,
 .content ol {
     padding-left: 30px;
+    line-height: 1.9;
 }
 
 .content ul:first-child,
@@ -320,6 +322,7 @@
     padding: 0;
     word-break: initial;
     border-collapse: collapse;
+    width: 100%;
 }
 
 .content table thead tr {
@@ -330,7 +333,7 @@
     font-weight: bold;
     border-left: 2px solid var(--table-border-color);
     border-right: 2px solid var(--table-border-color);
-    text-align: left;
+    text-align: center;
     margin: 0;
     padding: 6px 13px;
 }
@@ -352,7 +355,7 @@
 .content table tr td {
     border-left: 2px solid var(--table-border-color);
     border-right: 2px solid var(--table-border-color);
-    text-align: left;
+    text-align: center;
     margin: 0;
     padding: 6px 13px;
 }
@@ -378,7 +381,10 @@
 
 .content code {
     background-color: var(--bg-color5);
-    padding: 0 2px 0 2px;
+    padding: 0 12px 12px;
+    overflow: auto;
+    line-height: 1.9;
+    width: 100%;
 }
 
 .content p code {
@@ -393,8 +399,10 @@
 
 .content pre {
     background-color: var(--bg-color5);
-    padding: 0 20px;
+    padding: 30px 0 0;
+    display: flex;
     box-sizing: border-box;
+    margin: 3% 0;
 }
 
 .content kbd {
