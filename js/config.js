@@ -15,7 +15,7 @@ export default {
         // 仓库名称
         repo: "note",
         // 分支名
-        sha: "HUAWEI,master"
+        sha: "HCIA-Datacom"
     },
     // 后端地址
     serverBase: "https://api.n0ts.cn/api/gitee",
