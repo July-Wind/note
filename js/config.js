@@ -15,7 +15,6 @@ export default {
         // 仓库名称
         repo: "note",
         // 分支名
-        sha: "master"
         sha: "HUAWEI"
     },
     // 后端地址
