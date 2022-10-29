@@ -16,6 +16,13 @@ export default {
         repo: "note",
         // 分支名
         sha: "HCIA-Datacom"
+    gitee: {
+        // 账号
+        owner: "shiyimao",
+        // 仓库名称
+        repo: "cv",
+        // 分支名
+        sha: "master"
     },
     // 后端地址
     serverBase: "https://api.n0ts.cn/api/gitee",
