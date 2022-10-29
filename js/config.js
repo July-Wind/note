@@ -11,7 +11,7 @@ export default {
     // Gitee 配置
     gitee: {
         // 账号
-        owner: "n0ts",
+        owner: "shiyimao",
         // 仓库名称
         repo: "note",
         // 分支名
