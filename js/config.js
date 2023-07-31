@@ -15,7 +15,7 @@ export default {
         // 仓库名称
         repo: "note",
         // 分支名
-        sha: "HCIA-DataCom"
+        sha: "HCIA-DataCom","demo"
     },
     // 后端地址
     serverBase: "https://api.n0ts.top/api/gitee",
