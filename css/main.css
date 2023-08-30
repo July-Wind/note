@@ -444,7 +444,9 @@ pre code ul li {
 .aplayer .aplayer-lrc:after, .aplayer .aplayer-lrc:before {
     display: none;
 }
-
+.aplayer.aplayer-withlist .aplayer-info {
+    border-bottom: 1px solid #e9e9e900 !important;
+}
 /* 图片查看背景模糊 */
 .viewer-backdrop {
     backdrop-filter: blur(20px);
