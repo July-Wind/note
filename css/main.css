@@ -441,6 +441,10 @@ pre code ul li {
     max-height: 100% !important;
 }
 
+.aplayer .aplayer-lrc:after, .aplayer .aplayer-lrc:before {
+    display: none;
+}
+
 /* 图片查看背景模糊 */
 .viewer-backdrop {
     backdrop-filter: blur(20px);
