@@ -433,6 +433,7 @@ pre code ul li {
 
 .aplayer {
     display: inherit;
+    margin: 0px !important;
 }
 .aplayer-list ol {
     max-height: 100% !important;
