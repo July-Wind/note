@@ -79,13 +79,7 @@
                         <!-- 目录 -->
                         <el-tab-pane label="目录" name="目录">
                             <div class="contentTrees">
-                                <div
-                                    :class="{ contentItem: true, contentItemActive: index == menuSelectIndex, [item.tagName]: true }"
-                                    v-for="(item, index) in menuData"
-                                    @click="menuSelect(index)"
-                                >
-                                    {{ item.textContent }}
-                                </div>
+                                <meting-js server="netease" type="playlist" id="8690599436" mini="true"></meting-js>
                             </div>
                         </el-tab-pane>
                     </el-tabs>
@@ -115,7 +109,6 @@
                 <div :class="{ peBlack: true, peBlackHide: menuShow }" @click="menuShowOrHide"></div>
                 <!-- 内容 -->
                 <div class="body">
-                    <meting-js server="netease" type="playlist" id="8690599436" mini="true"></meting-js>
                     <!-- 编辑界面 -->
                     <div class="editor" :class="{editorShow: editorState}">
                         <!-- 编辑菜单 -->
