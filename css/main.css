@@ -431,6 +431,16 @@ pre code ul li {
     border-left: 1px solid #ccc;
 }
 
+.aplayer {
+    display: inherit;
+}
+.aplayer-list ol {
+    max-height: 100% !important;
+}
+.aplayer-list {
+    max-height: 100% !important;
+}
+
 /* 图片查看背景模糊 */
 .viewer-backdrop {
     backdrop-filter: blur(20px);
