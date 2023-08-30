@@ -511,10 +511,10 @@ code ul li::marker {
     display: inherit;
 }
 .aplayer-list ol {
-    max-heigth: 100% !important;
+    max-height: 100% !important;
 }
 .aplayer-list {
-    max-heigth: 100% !important;
+    max-height: 100% !important;
 }
 
 p {
