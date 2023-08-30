@@ -486,8 +486,13 @@ code.hljs {
 .hljs-link {
     text-decoration: underline;
 }
+
 .aplayer .aplayer-list ol li {
     border-top: 1px solid #313131 !important;
+}
+
+.aplayer .aplayer-list ol li.aplayer-list-light {
+    background: #00000033 !important;
 }
 
 code ul li::marker {
