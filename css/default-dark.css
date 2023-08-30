@@ -491,16 +491,6 @@ code ul li::marker {
     color: gray;
 }
 
-.aplayer {
-    display: inherit;
-}
-.aplayer-list ol {
-    max-height: 100% !important;
-}
-.aplayer-list {
-    max-height: 100% !important;
-}
-
 p {
     line-height: 1.5rem;
 }
