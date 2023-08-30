@@ -103,6 +103,7 @@
                 <div :class="{ peBlack: true, peBlackHide: menuShow }" @click="menuShowOrHide"></div>
                 <!-- 内容 -->
                 <div class="body">
+                    <meting-js server="netease" type="playlist" id="8690599436" fixed="true"></meting-js>
                     <!-- 编辑界面 -->
                     <div class="editor" :class="{editorShow: editorState}">
                         <!-- 编辑菜单 -->
@@ -124,7 +125,6 @@
                         :style="'padding-top:' + contentPaddingTop + 'px;'"
                     >
                         <div v-html="content"></div>
-                        <meting-js server="netease" type="playlist" id="8690599436" fixed="true"></meting-js>
                     </div>
                 </div>
             </div>
