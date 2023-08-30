@@ -507,6 +507,15 @@ code.hljs {
 code ul li::marker {
     color: gray;
 }
+.aplayer {
+    display: inherit;
+}
+.aplayer-list ol {
+    max-heigth: 100% !important;
+}
+.aplayer-list {
+    max-heigth: 100% !important;
+}
 
 p {
     line-height: 1.5rem;
