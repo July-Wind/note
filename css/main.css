@@ -441,6 +441,10 @@ pre code ul li {
 .aplayer-list {
     max-height: 100% !important;
 }
+.aplayer-pic {
+    margin-left: 5px;
+    border-radius: 10px;
+}
 
 .aplayer .aplayer-lrc:after, .aplayer .aplayer-lrc:before {
     display: none;
