@@ -442,8 +442,12 @@ pre code ul li {
     max-height: 100% !important;
 }
 .aplayer-pic {
-    margin-left: 5px;
-    border-radius: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.aplayer.aplayer-withlrc .aplayer-pic {
+    height: 80px !important;
+    width: 80px !important;
 }
 
 .aplayer .aplayer-lrc:after, .aplayer .aplayer-lrc:before {
