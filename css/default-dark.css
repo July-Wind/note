@@ -406,10 +406,10 @@
 }
 
 .content kbd {
-    background: #222;
+    background: #555;
     color: #ddd;
-    border-color: #444;
-    box-shadow: 0 2px 0 #333;
+    border-color: #555;
+    box-shadow: 0 2px 0 #999;
     padding: 2px 8px;
     margin: 0 3px;
 }
@@ -504,5 +504,5 @@ code ul li::marker {
 }
 
 p {
-    line-height: 1.5rem;
+    line-height: 1.8rem;
 }
