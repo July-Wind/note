@@ -108,7 +108,7 @@ const App = createApp({
                             if (item.path == "README.md") {
                                 return null;
                             }
-                            if (item.path.substring(item.path.length - 3, item.path.length) == ".md") {
+                            if (item.path.substring(item.path.length - 3, item.path.length) == ".md",".html") {
                                 return item;
                             }
                         })
