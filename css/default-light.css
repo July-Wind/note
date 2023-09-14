@@ -380,7 +380,7 @@
 
 .content code {
     background-color: var(--bg-color5);
-    padding: 0 12px 12px;
+    padding: 0 12px;
     overflow: auto;
     line-height: 1.9;
     width: 100%;
