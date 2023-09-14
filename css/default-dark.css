@@ -384,7 +384,7 @@
     padding: 0 12px;
     overflow: auto;
     border-top: 1px dashed #ffffff4d;
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 8px 8px;
     line-height: 1.9;
     width: 100%;
 }
@@ -405,7 +405,7 @@
     display: flex;
     box-sizing: border-box;
     margin: 3% 0;
-    border-radius: 10px;
+    border-radius: 8px;
     border: 1px solid #ffffff4d;
 }
 
