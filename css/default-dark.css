@@ -405,6 +405,7 @@
     display: flex;
     box-sizing: border-box;
     margin: 3% 0;
+    border-radius: 10px;
     border: 1px solid #ffffff4d;
 }
 
