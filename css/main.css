@@ -415,20 +415,23 @@ pre::before {
 
 pre code ul {
     list-style: none;
-    counter-increment: my-style;
+    counter-reset: my-style;
 }
 
-li::before {
-    content: counter(my-style); /* 使用计数器的值作为内容 */
-    display: inline-block;
-    width: 1em; /* 根据数字宽度调整 */
+.language-BASH li::before {
+    content: counter(my-style);
+    display: inline-grid;
+    width: 1em;
     text-align: right;
-    margin-right: 0.5em; /* 根据数字和文本之间的间距调整 */
+    color: #afa9a9;
+    border-right: 1px solid #ffffff4d;
+    margin-right: 0.5em;
+    counter-increment: my-style;
+    padding-right: 15px;
 }
 
 pre code ul li {
-    padding-left: 10px;
-    border-left: 1px solid #ccc;
+    margin-left: 30px;
 }
 
 .aplayer {
