@@ -384,7 +384,8 @@
     overflow: auto;
     line-height: 1.9;
     width: 100%;
-    border-radius: 10px;
+    border-radius: 0px 0px 10px 10px;
+    border-top: 1px solid #afa9a9;
 }
 
 .content p code {
@@ -403,6 +404,7 @@
     box-sizing: border-box;
     margin: 3% 0;
     border-radius: 10px;
+    border: 1px solid #afa9a9;
 }
 
 .content kbd {
@@ -512,4 +514,9 @@ code ul li::marker {
 
 p {
     line-height: 1.8rem;
+}
+
+.language-BASH li::before {
+    border-right: 1px solid #afa9a9;
+    
 }
