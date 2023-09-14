@@ -423,8 +423,17 @@ pre::before {
 }
 
 pre code ul {
-    list-style: decimal;
+    list-style: none;
+    counter-increment: my-style;
 }
+
+li::before {
+    content: counter(my-style); /* 使用计数器的值作为内容 */
+    display: inline-block;
+    width: 1em; /* 根据数字宽度调整 */
+    text-align: right;
+    margin-right: 0.5em; /* 根据数字和文本之间的间距调整 */
+  }
 
 pre code ul li {
     padding-left: 10px;
