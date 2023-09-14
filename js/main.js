@@ -1,12 +1,3 @@
-/*
- * @Author: N0ts
- * @Date: 2021-10-08 00:37:22
- * @LastEditTime: 2023-04-17 22:13:12
- * @Description: main
- * @FilePath: /eazy-gitee-note/js/main.js
- * @Mail：mail@n0ts.cn
- */
-
 // 从 Vue 中引入
 const { createApp, reactive, toRefs, ref } = Vue;
 
