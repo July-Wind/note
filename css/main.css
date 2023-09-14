@@ -433,7 +433,7 @@ li::before {
     width: 1em; /* 根据数字宽度调整 */
     text-align: right;
     margin-right: 0.5em; /* 根据数字和文本之间的间距调整 */
-  }
+}
 
 pre code ul li {
     padding-left: 10px;
