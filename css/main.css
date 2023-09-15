@@ -463,3 +463,24 @@ pre code ul li {
 .viewer-backdrop {
     backdrop-filter: blur(20px);
 }
+/* 标题提升 */
+h2::before {
+content: '';
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    left: 0;
+    width: 4px;
+    border-radius: 2px;
+    background: var(--active-color);
+}
+h3::before {
+    content: '#';
+    display: inline-block;
+    width: 1em;
+}
+h4::before {
+    content: '#';
+    display: inline-block;
+    width: 1em;
+}
