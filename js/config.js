@@ -9,7 +9,7 @@ export default {
         sha: "Notes"
     },
     // 后端地址
-    serverBase: "https://note.sbrz.link/admin",
+    serverBase: "https://note.sbrz.link",
     // 主题配置
     Themes: ["default-light", "default-dark"]
 };
