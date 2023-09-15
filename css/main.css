@@ -1,12 +1,3 @@
-/*
- * @Author: N0ts
- * @Date: 2021-10-08 00:37:27
- * @LastEditTime: 2022-01-06 11:29:55
- * @Description: main
- * @FilePath: /eazy-gitee-note/css/main.css
- * @Mail：mail@n0ts.cn
- */
-
 /* 全局样式 */
 * {
     margin: 0;
@@ -412,7 +403,7 @@ pre {
 pre::before {
     content: '';
     position: absolute;
-    top: 9px;
+    top: 12px;
     left: 15px;
     width: 12px;
     border-radius: 50%;
@@ -423,15 +414,63 @@ pre::before {
 }
 
 pre code ul {
-    list-style: decimal;
+    list-style: none;
+    counter-reset: my-style;
+}
+
+.language-BASH li::before {
+    content: counter(my-style);
+    display: inline-grid;
+    width: 1em;
+    text-align: right;
+    color: #afa9a9;
+    border-right: 1px solid #ffffff4d;
+    margin-right: 0.5em;
+    counter-increment: my-style;
+    padding-right: 12px;
 }
 
 pre code ul li {
-    padding-left: 10px;
-    border-left: 1px solid #ccc;
+    margin-left: -35px;
 }
 
+.aplayer {
+    display: inherit;
+    margin: 0px !important;
+}
+.aplayer-list ol {
+    max-height: 100% !important;
+}
+.aplayer-list {
+    max-height: 100% !important;
+}
+.aplayer-pic {
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.aplayer.aplayer-withlrc .aplayer-pic {
+    height: 80px !important;
+    width: 80px !important;
+}
+
+.aplayer .aplayer-lrc:after, .aplayer .aplayer-lrc:before {
+    display: none;
+}
+.aplayer.aplayer-withlist .aplayer-info {
+    border-bottom: 1px solid #e9e9e900 !important;
+}
 /* 图片查看背景模糊 */
 .viewer-backdrop {
     backdrop-filter: blur(20px);
+}
+
+.content h1::before {
+    content: '';
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    left: 0;
+    width: 4px;
+    border-radius: 2px;
+    background: #2996ff;
 }
