@@ -9,7 +9,7 @@ export default {
         sha: "Notes"
     },
     // 后端地址
-    serverBase: "https://api.n0ts.top/api/gitee",
+    serverBase: "https://gitee.com/api/v5/",
     // 主题配置
     Themes: ["default-light", "default-dark"]
 };
