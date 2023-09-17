@@ -42,7 +42,7 @@
 ::-webkit-scrollbar-thumb,
 ::-webkit-scrollbar-thumb:active {
     background-color: var(--active-color) !important;
-    border-radius: 4px;
+    border-radius: 0 0 8px 8px;
 }
 
 /* 左侧目录树背景 与 阴影 */
